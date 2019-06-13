@@ -1,0 +1,62 @@
+{
+  "project_info": {
+    "project_number": "763419740045",
+    "firebase_url": "https://decratile-28262.firebaseio.com",
+    "project_id": "decratile-28262",
+    "storage_bucket": "decratile-28262.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:763419740045:android:2af5efe044e2d164",
+        "android_client_info": {
+          "package_name": "com.ionictheme.fireionic"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "763419740045-7jktf7a7ie8qqlod5lba9pq17quie9ob.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ionictheme.fireionic",
+            "certificate_hash": "94a3125e844f84103f27d00fcc6d07f4201f2508"
+          }
+        },
+        {
+          "client_id": "763419740045-pt6kvdvd3li3b84n849bu2mkm5h3svp7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD_Jq9H_pyAzDqbOz9rYWMrrS9Lr4jIu_Y"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "763419740045-pt6kvdvd3li3b84n849bu2mkm5h3svp7.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "763419740045-v7mmnoab3rqbccn9n5j4rdvcubsu4ak7.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.ionictheme.fireionic"
+              }
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
