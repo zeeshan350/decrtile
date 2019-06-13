@@ -1,0 +1,25 @@
+<ion-content padding class="master-class">
+  <ion-list no-lines>
+      <ion-avatar>
+          <img src="assets/imgs/decra.png" class="logo-position">
+      </ion-avatar>
+      <ion-item  >
+          <ion-input round type="text" placeholder="Email address" name="username" #username></ion-input>
+      </ion-item>
+      <ion-item>
+          <ion-input round type="password" placeholder="Password" name="password" #password></ion-input>
+      </ion-item>
+      <br>
+      <button ion-button full type="submit" class="loginBtn submit-button" (click)="signIn()"><ion-icon name="log-in"></ion-icon>&nbsp;&nbsp;Sign in</button>
+ 
+  <br>
+        <div>
+          <p class="text-color"><a (click)="goForgetPage()">Forgotten your password?</a></p>
+        </div>
+  <br>
+    <div>
+      <p class="text-color">Don't have an account? <a (click)="goRegisterPage()">Sign up</a></p>
+    </div>
+  <br>
+</ion-list>
+</ion-content>

@@ -1,0 +1,38 @@
+
+  <ion-header>
+      <ion-navbar hideBackButton="true">
+        <ion-title>Update Password</ion-title>
+      </ion-navbar>
+    </ion-header>
+  
+  
+  <ion-content padding class="master-class">
+    <ion-list no-lines>
+  
+    <ion-item *ngFor="let item of items" >
+  
+        <ion-item>
+            <ion-input round type="password" placeholder="Set New Password" name="currentpassword" #newpassword></ion-input>
+        </ion-item  >
+  
+        <ion-item>
+            <ion-input round type="password" placeholder="Confirm New Password" name="confirmpassword" #confirmpassword></ion-input>
+        </ion-item  >
+  
+  
+   </ion-item>
+   <button ion-button full class="loginBtn submit-button" type="submit" (click)="signIn()">Update Password</button>
+   <br>
+   <div>
+     <p class="text-color">Already have an account? <a (click)="goLoginPage()">Try to Log in</a></p>
+   </div>
+   <br>
+  </ion-list>
+  </ion-content>
+  
+  
+  
+  
+  
+  
+  

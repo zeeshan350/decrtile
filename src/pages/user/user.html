@@ -1,0 +1,30 @@
+<ion-header>
+  <ion-navbar hideBackButton="true">
+    <ion-title>Tile Verification</ion-title>
+  </ion-navbar>
+</ion-header>
+<ion-content padding>
+        
+      <ion-list no-lines>
+        
+        <ion-item>
+              <ion-input [(ngModel)]="value" #username mask="R*****-******" placeholder="Production Code" required></ion-input>
+        </ion-item>
+        <ion-row>
+          <ion-col>
+            <p style="text-align:center"wa>Enter first 11 digits that follows R</p>
+            <button ion-button full class="submit-button" type="submit" (click)="verify()"><ion-icon name="qr-scanner"></ion-icon>&nbsp;&nbsp;Verify Genuine Decra</button>
+
+          </ion-col>
+        </ion-row> 
+
+        <br>
+        <ion-row>
+          <ion-col>
+            <img src="assets/imgs/bot.jpg"/>
+            <p style="text-align:center"><strong>Check the production code on the back of one of your tiles</strong></p>
+          </ion-col>
+      </ion-row>  
+      </ion-list>   
+
+</ion-content>

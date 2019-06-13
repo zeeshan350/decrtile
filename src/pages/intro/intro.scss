@@ -1,0 +1,81 @@
+.ios, .md {
+
+    page-intro {
+
+
+      ion-slides {
+        display: flex;
+      }
+  
+      ion-slide {
+        background-color: #212b59;
+        height: 100vh;
+        flex-direction: column;
+      }
+      
+      ion-slide img {
+        height: auto !important;
+        width: 70% !important;
+      }
+
+      ion-slide h3{
+          color: white;
+          padding:10px 15px;
+          font-size: 22px;
+          text-align: center;
+          align-content: center;
+          font-weight: 600;
+      }
+
+      ion-slide p{
+        color: white;
+        padding:0px 15px;
+        font-size: 18px;
+        text-align: center;
+        align-content: center;
+        font-weight: 400;
+      } 
+
+
+      .background-image {
+        background-image: url(assets/imgs/bg-decra.jpg);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+        background-size:auto 100%;
+      }
+
+      .clickEnableCls{
+        pointer-events: visible !important;
+     }
+
+     .swiper-pagination-bullet {
+      background:white;
+      opacity: 1.0;
+    }
+  
+    .swiper-pagination-bullet-active {
+      opacity: 1;
+      background: #893129;
+    }
+    .scroll-content {
+      display: flex;
+      flex-direction: column;
+  
+    }
+    .decra-button{
+      background-color: #212b59;
+    }
+
+    .decra-button:hover{
+      background-color: #893129 !important;
+    }
+
+
+    
+  
+    }
+  
+  }
+
+ 

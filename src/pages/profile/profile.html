@@ -1,0 +1,49 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>User Profile</ion-title>
+  </ion-navbar>
+</ion-header>
+
+
+
+<ion-content padding class="master-class">
+  <ion-list no-lines>
+
+  <ion-item *ngFor="let item of items" >
+
+
+      <ion-item>
+          <ion-input round type="text" placeholder="Full Name" name="fullname" value="{{item.username}}" #fullname></ion-input>
+      </ion-item  >
+
+      <ion-item>
+          <ion-input round type="password" placeholder="Current Password" name="password" value="{{item.password}}" #password></ion-input>
+      </ion-item  >
+
+      <ion-item>
+          <ion-input round type="password" placeholder="Set New Password" name="currentpassword" #newpassword></ion-input>
+      </ion-item  >
+
+      <ion-item>
+          <ion-input round type="password" placeholder="Confirm New Password" name="currentpassword" #confirmpassword></ion-input>
+      </ion-item  >
+
+      <ion-item>
+          <ion-input round type="email" placeholder="Email address" name="email" value="{{item.email}}" #email disabled></ion-input>
+      </ion-item  >
+
+      <ion-item>
+          <ion-input round type="number" placeholder="Phone number" name="telephone" value="{{item.telephone}}" #telephone>></ion-input>
+      </ion-item  >
+
+
+ </ion-item>
+ <button ion-button full type="submit" class="loginBtn submit-button" (click)="signIn()"><ion-icon name="person"></ion-icon>&nbsp;&nbsp;Update Account Details</button>
+</ion-list>
+</ion-content>
+
+
+
+
+
+
